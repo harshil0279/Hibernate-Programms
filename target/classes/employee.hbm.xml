@@ -1,0 +1,10 @@
+<hibernate-mapping>
+	<class name="com.bridgelab.modal.Employee" table="employee">
+		<id name="id">
+			<generator class="native" />
+		</id>
+		<property name="firstName" type="string" column="first_name" />
+		<property name="lastName" type="string" column="last_name" />
+		<property name="salary" type="int" column="salary" />
+	</class>
+</hibernate-mapping>
